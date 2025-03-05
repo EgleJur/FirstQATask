@@ -3,7 +3,7 @@ import json
 import jsonpath
 import pytest
 lpar = 'RS21'
-# API_URL =f"http://rs28.rocketsoftware.com:8803/gpm/rmfm3.xml?report=DELAY&resource=,{lpar},MVS_IMAGE"
+# API_URL =f"http://rs28.rocketsoftware.com:8803/gpm/rmfm3.xml?report=DELAY&resource=,'RS21',MVS_IMAGE"
 # API_URL ="http://rs28.rocketsoftware.com:8803/gpm/rmfm3.xml?report=DELAY&resource=,RS21,MVS_IMAGE&TIME=20250304035410"
 headerData={'Accept': 'application/json'}
 def get_url(lpar):
